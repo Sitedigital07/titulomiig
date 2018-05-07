@@ -1,0 +1,13 @@
+{
+    "name": "digitalmiig/titulomiig",
+    "description": "Gestion y administracion de titulos y grados para libros y libros",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Site Digital",
+            "email": "info@sitedigital.com.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

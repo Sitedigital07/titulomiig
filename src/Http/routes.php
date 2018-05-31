@@ -1,5 +1,6 @@
 <?php
 
+Route::group(['middleware' => ['auditor']], function (){
 Route::get('/areas', 'Digitalmiig\Titulomiig\Controllers\AreaController@index');
 
 Route::get('/editar-grado/{id}', 'Digitalmiig\Titulomiig\Controllers\AreaController@edit');
@@ -59,3 +60,4 @@ Route::get('exportar', 'Digitalmiig\Titulomiig\Controllers\MaatwebsiteDemoContro
 
 
 
+});

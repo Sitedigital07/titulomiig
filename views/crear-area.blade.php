@@ -19,10 +19,10 @@ Gestión de usuarios Libros & Libros
 <div class="content-header">
                             <ul class="nav-horizontal text-center">
                             	<li>
-                                    <a href="/areas"><i class="gi gi-charts"></i> grados</a>
+                                    <a href="/areas"><i class="fa fa-graduation-cap"></i> grados</a>
                                 </li>
                                 <li class="active">
-                                    <a href="/crear-area"><i class="fa fa-home"></i> Crear grado</a>
+                                    <a href="/crear-area"><i class="fa fa-plus-circle"></i> Crear grado</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,7 +56,7 @@ Gestión de usuarios Libros & Libros
                                        
                                         <div class="form-group form-actions">
                                             <div class="col-md-9 col-md-offset-3">
-                                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Submit</button>
+                                                <button type="submit" class="btn btn-sm btn-primary"><i class="fa fa-angle-right"></i> Crear grado</button>
                                                 <button type="reset" class="btn btn-sm btn-warning"><i class="fa fa-repeat"></i> Reset</button>
                                             </div>
                                         </div>

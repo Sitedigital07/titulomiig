@@ -22,13 +22,13 @@ Gestión de usuarios Libros & Libros
 <div class="content-header">
                             <ul class="nav-horizontal text-center">
                                 <li class="active">
-                                    <a href="/titulos"><i class="fa fa-home"></i> Titulos</a>
+                                    <a href="/titulos"><i class="fa fa-file-text"></i> Titulos</a>
                                 </li>
                                 <li>
-                                    <a href="/crear-titulo"><i class="gi gi-charts"></i> Crear titulo</a>
+                                    <a href="/crear-titulo"><i class="fa fa-plus-circle"></i> Crear titulo</a>
                                 </li>
                                 <li>
-                                    <a href="/excel-oficina"><i class="gi gi-charts"></i> Importar - Exportar</a>
+                                    <a href="/excel-oficina"><i class="fa fa-download"></i> Importar - Exportar</a>
                                 </li>
                             </ul>
                         </div>

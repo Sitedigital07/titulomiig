@@ -14,14 +14,20 @@ Gestión de usuarios Libros & Libros
 
 <div class="content-header">
                             <ul class="nav-horizontal text-center">
+                                 <li>
+                                    <a href="/titulos"><i class="fa fa-file-text"></i> Titulos</a>
+                                </li>
+                                <li>
+                                    <a href="/crear-titulo"><i class="fa fa-plus-circle"></i> Crear titulo</a>
+                                </li>
                             	<li class="active">
-                                    <a href="{{ URL::to('exportador/xls') }}"><i class="gi gi-charts"></i> Descargar xls</a>
+                                    <a href="{{ URL::to('exportador/xls') }}"><i class="fa fa-file-excel-o"></i> Descargar xls</a>
                                 </li>
                                 <li>
-                                    <a href="{{ URL::to('exportador/xlsx') }}"><i class="fa fa-home"></i> Descargar xlsx</a>
+                                    <a href="{{ URL::to('exportador/xlsx') }}"><i class="fa fa-file-excel-o"></i> Descargar xlsx</a>
                                 </li>
                                 <li>
-                                    <a href="{{ URL::to('exportador/csv') }}"><i class="fa fa-home"></i> Descargar CSV</a>
+                                    <a href="{{ URL::to('exportador/csv') }}"><i class="fa fa-file-excel-o"></i> Descargar CSV</a>
                                 </li>
                             </ul>
                         </div>

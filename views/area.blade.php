@@ -13,10 +13,10 @@ Gestión de usuarios Libros & Libros
 <div class="content-header">
                             <ul class="nav-horizontal text-center">
                             	<li class="active">
-                                    <a href="/areas"><i class="gi gi-charts"></i> grados</a>
+                                    <a href="/areas"><i class="fa fa-graduation-cap"></i> grados</a>
                                 </li>
                                 <li>
-                                    <a href="/crear-area"><i class="fa fa-home"></i> Crear grado</a>
+                                    <a href="/crear-area"><i class="fa fa-plus-circle"></i> Crear grado</a>
                                 </li>
                             </ul>
                         </div>

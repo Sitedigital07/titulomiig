@@ -64,6 +64,9 @@ Gestión de usuarios Libros & Libros
                                                       <option value="5">Ingles</option>
                                                       <option value="6">Artistica</option>
                                                       <option value="7">Interes general</option>
+                                                      <option value="12">Prejardin</option>
+                                                      <option value="13">Jardin</option>
+                                                      <option value="14">Transición</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -84,6 +87,9 @@ Gestión de usuarios Libros & Libros
                                                       <option value="9">Noveno</option>
                                                       <option value="10">Decimo</option>
                                                       <option value="11">Once</option>
+                                                      <option value="12">Prejardin</option>
+                                                      <option value="13">Jardin</option>
+                                                      <option value="14">Transición</option>
                                                 </select>
                                             </div>
                                         </div>

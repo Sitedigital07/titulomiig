@@ -57,15 +57,15 @@ Gestión de usuarios Libros & Libros
                                             <div class="col-md-9">
                                                 <select id="example-select" name="asignatura" class="form-control">
                                                     <option value="" disabled selected>Seleccione asignatura</option>
-                                                      <option value="1">Matematicas</option>
+                                                      <option value="1">Matemáticas</option>
                                                       <option value="2">Español</option>
                                                       <option value="3">Sociales</option>
-                                                      <option value="4">Comprensión lectora</option>
-                                                      <option value="5">Ingles</option>
-                                                      <option value="6">Artistica</option>
-                                                      <option value="7">Interes general</option>
-                                                      <option value="12">Prejardin</option>
-                                                      <option value="13">Jardin</option>
+                                                      <option value="4">Comprensión Lectora</option>
+                                                      <option value="5">Inglés</option>
+                                                      <option value="6">Artística</option>
+                                                      <option value="7">Interés General</option>
+                                                      <option value="12">Pre Jardín</option>
+                                                      <option value="13">Jardín</option>
                                                       <option value="14">Transición</option>
                                                 </select>
                                             </div>
@@ -82,14 +82,26 @@ Gestión de usuarios Libros & Libros
                                                       <option value="4">Cuarto</option>
                                                       <option value="5">Quinto</option>
                                                       <option value="6">Sexto</option>
-                                                      <option value="7">Septimo</option>
+                                                      <option value="7">Séptimo</option>
                                                       <option value="8">Octavo</option>
                                                       <option value="9">Noveno</option>
-                                                      <option value="10">Decimo</option>
+                                                      <option value="10">Décimo</option>
                                                       <option value="11">Once</option>
-                                                      <option value="12">Prejardin</option>
-                                                      <option value="13">Jardin</option>
+                                                      <option value="12">Pre Jardín</option>
+                                                      <option value="13">Jardín</option>
                                                       <option value="14">Transición</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                          <div class="form-group">
+                                            <label class="col-md-3 control-label" for="example-select">Portafolio</label>
+                                            <div class="col-md-9">
+                                                <select id="example-select" name="portafolio" class="form-control">
+                                                    <option value="" disabled selected>Seleccione Tipo Portafolio</option>
+                                                      <option value="1">Portafolio Privado</option>
+                                                      <option value="2">Portafolio Público</option>
+                                                      <option value="3">Portafolio Especial</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -129,12 +141,12 @@ $(document).ready(function() {
                 message: 'The username is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'El campo dirigido es requerido'
+                        message: 'El campo nombre es requerido'
                     },
                     stringLength: {
                         min: 2,
                         max: 200,
-                        message: 'El campo nombre debe contener un minimo de 2 y un maximo de 200 Caracteres'
+                        message: 'El campo nombre debe contener un mínimo de 2 y un máximo de 200 caracteres'
                     }
                 }
             },
@@ -142,7 +154,7 @@ $(document).ready(function() {
                 message: 'The username is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'El campo dirigido es requerido'
+                        message: 'El campo asignatura es requerido'
                     } 
                 }
             },
@@ -151,7 +163,7 @@ $(document).ready(function() {
                 message: 'The username is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'El campo dirigido es requerido'
+                        message: 'El campo grado es requerido'
                     }
                 }
             },
@@ -160,13 +172,22 @@ $(document).ready(function() {
                 message: 'The username is not valid',
                 validators: {
                     notEmpty: {
-                        message: 'El campo dirigido es requerido'
+                        message: 'El campo precio es requerido'
                     },
                     stringLength: {
                         min: 2,
                         max: 150,
-                        message: 'El campo precio debe contener un minimo de 2 y un maximo de 150 Caracteres'
+                        message: 'El campo precio debe contener un mínimo de 2 y un máximo de 6 caracteres'
                     }
+                }
+            }, 
+
+              portafolio: {
+                message: 'The username is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'El campo portafolio es requerido'
+                    },
                 }
             }, 
     

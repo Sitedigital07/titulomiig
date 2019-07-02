@@ -29,6 +29,7 @@ class TitulosController extends Controller
        $titulo->nombre = Input::get('nombre');
        $titulo->grado = Input::get('grado');
        $titulo->asignatura = Input::get('asignatura');
+       $titulo->portafolio = Input::get('portafolio');
        $titulo->precio = Input::get('precio');
        $titulo->save();
 
@@ -82,6 +83,8 @@ class TitulosController extends Controller
     $user->nombre = Input::get('nombre');
     $user->grado = Input::get('grado');
     $user->asignatura = Input::get('asignatura');
+    $user->portafolio = Input::get('portafolio');
+    $user->precio = Input::get('precio');
     $user->save();
     return Redirect('/titulos')->with('status', 'ok_update');
     }

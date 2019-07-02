@@ -83,8 +83,57 @@ Gestión de usuarios Libros & Libros
                                         @foreach($titulos as $titulos)
                                         <tr>
                                             <td class="text-center">{{$titulos->nombre}}</td>
-                                            <td class="text-center">{{$titulos->grado}}</td>
-                                            <td>{{$titulos->asignatura}}</td>
+                                            @if($titulos->grado == 1)
+                                            <td class="text-center">Primero</td>
+                                            @elseif($titulos->grado == 2)
+                                            <td class="text-center">Segundo</td>
+                                            @elseif($titulos->grado == 3)
+                                            <td class="text-center">Tercero</td>
+                                            @elseif($titulos->grado == 4)
+                                            <td class="text-center">Cuarto</td>
+                                            @elseif($titulos->grado == 5)
+                                            <td class="text-center">Quinto</td>
+                                            @elseif($titulos->grado == 6)
+                                            <td class="text-center">Sexto</td>
+                                            @elseif($titulos->grado == 7)
+                                            <td class="text-center">Séptimo</td>
+                                            @elseif($titulos->grado == 8)
+                                            <td class="text-center">Octavo</td>
+                                            @elseif($titulos->grado == 9)
+                                            <td class="text-center">Noveno</td>
+                                            @elseif($titulos->grado == 10)
+                                            <td class="text-center">Décimo</td>
+                                            @elseif($titulos->grado == 11)
+                                            <td class="text-center">Once</td>
+                                            @elseif($titulos->grado == 12)
+                                            <td class="text-center">Pre Jardín</td>
+                                            @elseif($titulos->grado == 13)
+                                            <td class="text-center">Jardín</td>
+                                            @elseif($titulos->grado == 14)
+                                            <td class="text-center">Transición</td>
+                                            @endif
+
+                                            @if($titulos->asignatura == 1)
+                                            <td>Matemáticas</td>
+                                            @elseif($titulos->asignatura == 2)
+                                            <td>Español</td>
+                                            @elseif($titulos->asignatura == 3)
+                                            <td>Sociales</td>
+                                            @elseif($titulos->asignatura == 4)
+                                            <td>Comprensión Lectora</td>
+                                            @elseif($titulos->asignatura == 5)
+                                            <td>Inglés</td>
+                                            @elseif($titulos->asignatura == 6)
+                                            <td>Artística</td>
+                                            @elseif($titulos->asignatura == 7)
+                                            <td>Interés General</td>
+                                            @elseif($titulos->asignatura == 12)
+                                            <td>Pre Jardín</td>
+                                            @elseif($titulos->asignatura == 13)
+                                            <td>Jardín</td>
+                                            @elseif($titulos->asignatura == 14)
+                                            <td>Transición</td>
+                                            @endif
                                             <td>{{$titulos->precio}}</td>
                                             <td><span class="label label-info">Business</span></td>
                                             <td class="text-center">

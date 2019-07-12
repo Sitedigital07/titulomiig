@@ -91,15 +91,15 @@ Gestión de usuarios Libros & Libros
                                           </div>
                                         </div>
 
-                                        <div class="form-group">
-                                         <label class="col-md-3 control-label" for="example-password-input">Portafolio</label>
-                                          <div class="col-md-9">
-                                           {{ Form::select('portafolio', [$titulos->portafolio => $titulos->portafolio,
-                                           '1' => 'Portafolio Privado',
-                                           '2' => 'Portafolio Público',
-                                           '3' => 'Portafolio Especial'], null, array('class' => 'form-control')) }}
+                                
+                                         <div class="form-group">
+                                          <label class="col-md-3 control-label" for="example-select">Portafolio</label>
+                                           <div class="col-md-9">
+                                             {{ Form::select('portafolio', [$titulos->portafolio => $titulos->portafolio,
+                                             '1' => 'Completo',
+                                             '2' => 'Especial'], null, array('class' => 'form-control')) }}
                                           </div>
-                                        </div>
+                                         </div>
 
                                          <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">Precio</label>

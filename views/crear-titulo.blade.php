@@ -94,17 +94,14 @@ Gestión de usuarios Libros & Libros
                                             </div>
                                         </div>
 
-                                          <div class="form-group">
-                                            <label class="col-md-3 control-label" for="example-select">Portafolio</label>
-                                            <div class="col-md-9">
-                                                <select id="example-select" name="portafolio" class="form-control">
-                                                    <option value="" disabled selected>Seleccione Tipo Portafolio</option>
-                                                      <option value="1">Portafolio Privado</option>
-                                                      <option value="2">Portafolio Público</option>
-                                                      <option value="3">Portafolio Especial</option>
-                                                </select>
-                                            </div>
-                                        </div>
+                                        <div class="form-group">
+                                          <label class="col-md-3 control-label" for="example-select">Portafolio</label>
+                                           <div class="col-md-9">
+                                            {{ Form::select('portafolio', ['' => 'Seleccione Portafolio',
+                                            '1' => 'Completo',
+                                            '2' => 'Especial'], null, array('class' => 'form-control')) }}
+                                          </div>
+                                      </div>
 
                                          <div class="form-group">
                                             <label class="col-md-3 control-label" for="example-text-input">Precio</label>

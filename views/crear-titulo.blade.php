@@ -59,11 +59,11 @@ Gestión de usuarios Libros & Libros
                                                     <option value="" disabled selected>Seleccione asignatura</option>
                                                       <option value="1">Matemáticas</option>
                                                       <option value="2">Español</option>
-                                                      <option value="3">Sociales</option>
+                                                      <option value="3">Ciencias</option>
                                                       <option value="4">Comprensión Lectora</option>
-                                                      <option value="5">Inglés</option>
+                                                      <option value="7">Inglés</option>
                                                       <option value="6">Artística</option>
-                                                      <option value="7">Interés General</option>
+                                                      <option value="5">Interés General</option>
                                                       <option value="12">Pre Jardín</option>
                                                       <option value="13">Jardín</option>
                                                       <option value="14">Transición</option>

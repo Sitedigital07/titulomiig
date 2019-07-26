@@ -61,9 +61,9 @@ Gestión de usuarios Libros & Libros
                                            '2' => 'Español',
                                            '3' => 'Sociales',
                                            '4' => 'Comprensión Lectora',
-                                           '5' => 'Inglés',
+                                           '7' => 'Inglés',
                                            '6' => 'Artística',
-                                           '7' => 'Interés General',
+                                           '5' => 'Interés General',
                                            '12' => 'Pre Jardín',
                                            '13' => 'Jardín',
                                            '14' => 'Transición'], null, array('class' => 'form-control')) }}

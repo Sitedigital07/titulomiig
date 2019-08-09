@@ -122,11 +122,11 @@ Gestión de usuarios Libros & Libros
                                             @elseif($titulos->asignatura == 4)
                                             <td>Comprensión Lectora</td>
                                             @elseif($titulos->asignatura == 5)
-                                            <td>Inglés</td>
+                                            <td>Interés General</td>
                                             @elseif($titulos->asignatura == 6)
                                             <td>Artística</td>
                                             @elseif($titulos->asignatura == 7)
-                                            <td>Interés General</td>
+                                            <td>Inglés</td>
                                             @elseif($titulos->asignatura == 12)
                                             <td>Pre Jardín</td>
                                             @elseif($titulos->asignatura == 13)
